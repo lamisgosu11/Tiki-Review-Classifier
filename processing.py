@@ -6,7 +6,7 @@ def processing_text(df):
         import re
     # LOAD FILES
     # 1. emojicon
-        file = open('D:/University/2022-2023/HK2/thuThapVaTienXuLyDuLieu/fat_preprocessing/files/emojicon.txt', 'r', encoding="utf8")
+        file = open('files/emojicon.txt', 'r', encoding="utf8")
         emoji_lst = file.read().split('\n')
         emoji_dict = {}
         for line in emoji_lst:
@@ -14,7 +14,7 @@ def processing_text(df):
                 emoji_dict[key] = str(value)
         file.close()
     # 2. teencode
-        file = open('D:/University/2022-2023/HK2/thuThapVaTienXuLyDuLieu/fat_preprocessing/files/teencode.txt', 'r',encoding = 'utf8')
+        file = open('files/teencode.txt', 'r',encoding = 'utf8')
         teen_list = file.read().split('\n')
         teen_dict = {}
         for line in teen_list:
@@ -22,15 +22,15 @@ def processing_text(df):
             teen_dict[key] = str(value)
         file.close()
     # 3. wrong words
-        file = open('D:/University/2022-2023/HK2/thuThapVaTienXuLyDuLieu/fat_preprocessing/files/wrong-words.txt', 'r', encoding = 'utf8')
+        file = open('files/wrong-words.txt', 'r', encoding = 'utf8')
         wrong_list = file.read().split('\n')
         file.close()
     # 4. stop words
-        file = open('D:/University/2022-2023/HK2/thuThapVaTienXuLyDuLieu/fat_preprocessing/files/vietnamese-stopwords.txt', 'r', encoding = 'utf8')
+        file = open('files/vietnamese-stopwords.txt', 'r', encoding = 'utf8')
         stopwords_list = file.read().split('\n')
         file.close()
     # 5. bad words
-        file = open('D:/University/2022-2023/HK2/thuThapVaTienXuLyDuLieu/fat_preprocessing/files/bad-words.txt', 'r', encoding = 'utf8')
+        file = open('files/bad-words.txt', 'r', encoding = 'utf8')
         bad_list = file.read().split('\n')
         file.close()
         
