@@ -43,9 +43,3 @@ $ Run streamlit files for web UI. (will be update later)
 Further information on deploying this on a live or release system is available (web UI). Discusses the most important branches, the pipelines they activate, and how to keep the database up to date (if anything special). <br />
 By far, the classifier performs admirably on the product, which is books (maybe because Tiki is an ecommerce site that sold most books).
 
-## Additional Documentation and Acknowledgments
-
-* Project folder on the server:
-* Credit for the dataset: Kaggle user: LAKSHMIPATHI N (https://shorturl.at/aiqxS)
-
-## References
